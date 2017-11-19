@@ -1,0 +1,21 @@
+﻿Build started 12/3/2015 5:19:00 PM.
+     1>Project "F:\3rdYear\Sensor\cinder_0.8.6_vc2013\myApps\TermProject\vc2013\TermProject.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\include /I..\..\..\\include /I..\..\..\\boost /I"..\..\..\blocks\Cinder-LeapMotion-release\src" /ZI /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D NOMINMAX /D _WIN32_WINNT=0x0502 /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\TermProjectApp.cpp
+         TermProjectApp.cpp
+     1>f:\3rdyear\sensor\cinder_0.8.6_vc2013\myapps\termproject\src\termprojectapp.cpp(27): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\3rdYear\Sensor\cinder_0.8.6_vc2013\myApps\TermProject\vc2013\Debug\TermProject.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\..\..\\lib\msw\x86 "cinder-v120_d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "..\..\..\blocks\Cinder-LeapMotion-release\lib\msw\x86\Leap.lib" /NODEFAULTLIB:LIBCMT /NODEFAULTLIB:LIBCPMT /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\3rdYear\Sensor\cinder_0.8.6_vc2013\myApps\TermProject\vc2013\Debug\TermProject.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"F:\3rdYear\Sensor\cinder_0.8.6_vc2013\myApps\TermProject\vc2013\Debug\TermProject.lib" /MACHINE:X86 Debug\Resources.res
+         Debug\TermProjectApp.obj
+         "Debug\Cinder-LeapMotion.obj"
+         TermProject.vcxproj -> F:\3rdYear\Sensor\cinder_0.8.6_vc2013\myApps\TermProject\vc2013\Debug\TermProject.exe
+       PostBuildEvent:
+         xcopy /y "..\..\..\blocks\Cinder-LeapMotion-release\lib\msw\x86\Leap.dll" "F:\3rdYear\Sensor\cinder_0.8.6_vc2013\myApps\TermProject\vc2013\Debug\"
+         :VCEnd
+         ..\..\..\blocks\Cinder-LeapMotion-release\lib\msw\x86\Leap.dll
+         1 File(s) copied
+     1>Done Building Project "F:\3rdYear\Sensor\cinder_0.8.6_vc2013\myApps\TermProject\vc2013\TermProject.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:18.27
